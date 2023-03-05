@@ -1,21 +1,3 @@
-import os
-import openai
-import streamlit as st
-import pandas as pd
-from deep_translator import GoogleTranslator
-from bing_image_downloader import downloader
-import gtts
-from gtts import gTTS
-from mutagen.mp3 import MP3
-from PIL import Image
-from pathlib import Path
-import imageio
-from moviepy import editor
-import time
-import urllib.request
-import shutil
-from docx import Document
-import glob
 
 st.title(":crossed_swords: OpenAI SEO Tool")
 api = st.text_input("Enter Your API Key here :")
